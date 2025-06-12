@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Types d’Hydrogène</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0fdf4;
+    }
+    header {
+      position: relative;
+      background-image: url('images/fond.png');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: 0;
+    }
+    header h1 {
+      position: relative;
+      z-index: 1;
+      font-size: 2.8em;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+    nav {
+      background-color: #e0f2f1;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #2e7d32;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+    section {
+      max-width: 900px;
+      background: white;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    section img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 20px auto;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2e7d32;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      background: #e0f2f1;
+      margin-bottom: 12px;
+      padding: 15px;
+      border-left: 6px solid #2e7d32;
+      border-radius: 4px;
+    }
+    footer {
+      text-align: center;
+      background: #2e7d32;
+      color: white;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Panorama des types d’hydrogène</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="types.html">Types</a>
+    <a href="evolution.html">Évolution</a>
+    <a href="acteurs.html">Acteurs</a>
+    <a href="discorde.html">Discorde</a>
+    <a href="donnees.html">Données</a>
+    <a href="citations.html">Citations</a>
+    <a href="arguments.html">Arguments</a>
+    <a href="conclusion.html">Conclusion</a>
+  </nav>
+
+  <section>
+    <p>
+      L’hydrogène se décline en plusieurs « couleurs » selon sa méthode de production. Chaque type implique un niveau d’émissions de gaz à effet de serre et des coûts spécifiques. Voici les principales variantes :
+    </p>
+
+    <img src="images/schema-hydrogene.png" alt="Schéma des types d'hydrogène" />
+
+    <ul>
+      <li><strong>Hydrogène gris :</strong> produit à partir de gaz naturel par reformage à la vapeur, sans capture des émissions de CO₂. C’est la méthode la plus courante aujourd’hui, mais aussi la plus polluante.</li>
+      <li><strong>Hydrogène bleu :</strong> similaire à l’hydrogène gris, mais avec capture et stockage du CO₂ émis, ce qui réduit son impact environnemental.</li>
+      <li><strong>Hydrogène vert :</strong> produit par électrolyse de l’eau avec de l’électricité issue de sources renouvelables, sans émissions de CO₂ directes.</li>
+      <li><strong>Hydrogène turquoise :</strong> produit par pyrolyse du méthane, générant du carbone solide au lieu de CO₂, encore en phase expérimentale.</li>
+      <li><strong>Hydrogène jaune :</strong> produit par électrolyse alimentée par l’électricité du réseau, qui peut être mixte (fossile et renouvelable).</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Projet étudiant - Controverse sur l’Hydrogène © 2025</p>
+  </footer>
+</body>
+</html>
